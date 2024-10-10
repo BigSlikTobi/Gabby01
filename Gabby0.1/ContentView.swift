@@ -1,19 +1,11 @@
-//
-//  ContentView.swift
-//  Gabby0.1
-//
-//  Created by Tobias Latta on 10.10.24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, World! It's me!!")
+                .font(.largeTitle)
+                .padding()
         }
         .padding()
     }
